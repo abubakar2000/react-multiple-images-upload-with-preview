@@ -5,7 +5,13 @@ class FileUploadService {
     let formData = new FormData();
 
     formData.append("file", file);
-
+    console.log("hh");
+    console.log("hh");
+    console.log("hh");
+    console.log("hh");
+    console.log("hh");
+    console.log("hh");
+    console.log("hh");
     return http.post("/upload", formData, {
       headers: {
         "Content-Type": "multipart/form-data",
